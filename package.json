@@ -1,0 +1,24 @@
+{
+  "name": "unwrap-phases",
+  "version": "1.0.0",
+  "description": "Phase unwrapping for phase data arrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oramics/unwrap-phases.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oramics/unwrap-phases/issues"
+  },
+  "homepage": "https://github.com/oramics/unwrap-phases#readme",
+  "devDependencies": {
+    "filled-array": "^1.1.0",
+    "jest": "^19.0.2"
+  }
+}
