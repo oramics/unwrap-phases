@@ -1,18 +1,24 @@
 {
   "name": "unwrap-phases",
   "version": "1.0.0",
-  "description": "Phase unwrapping for phase data arrays",
+  "description": "Unwrap phase data",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oramics/unwrap-phases.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "spectrum",
+    "unwrap",
+    "fft",
+    "fourier",
+    "dsp"
+  ],
+  "author": "danigb",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/oramics/unwrap-phases/issues"
   },

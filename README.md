@@ -1,19 +1,21 @@
 # unwrap-phases
 
-> Phase unwrapping for phase data arrays
+> Unwrap phase data
+
+[![npm install unwrap-phases](https://nodei.co/npm/unwrap-phases.png?mini=true)](https://npmjs.org/package/unwrap-phases/)
+
+
 
 ```js
 var unwrap = require('unwrap-phases')
 unwrap(phases) // in-place unwrapping for maximum efficiency
 ```
 
-## Install
-
-Via `npm`: `npm i -S unwrap-phases`
 
 ## Usage
 
-## unwrap(input, [output = input]) ⇒ <code>Array</code>
+### unwrap(input, [output = input]) ⇒ <code>Array</code>
+
 
 **Returns**: <code>Array</code> - the unrapped phase data
 
@@ -24,8 +26,8 @@ Via `npm`: `npm i -S unwrap-phases`
 
 **Example**  
 ```js
-// given a phase data of a spectrum...
 const unwrap = require('unwrap-phases')
+// given a phase data of a spectrum...
 unwrap(phases) // in-place unwrapping
 const unwrapped = unwrap(phases, true) // new output array
 ```
